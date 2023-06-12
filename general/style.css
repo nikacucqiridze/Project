@@ -134,7 +134,7 @@ body {
   cursor: pointer;
 
   background-color: #ffcf23;
-  color: black;
+  color: #000;
 
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2);
 
@@ -152,7 +152,7 @@ body {
 
   background-color: #f3f3f3;
   padding: 6.4rem 15rem;
-  gap: 3rem;
+  gap: 5rem;
   justify-content: center;
   align-items: center;
 }
@@ -192,4 +192,42 @@ body {
 .pb p {
   font-size: 1.6rem;
   grid-column: -3/-1;
+}
+
+/* ////////////// */
+
+.section-health {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  padding: 6.4rem 15rem;
+  background-color: #000;
+  gap: 13.3rem;
+}
+
+.img-health {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.heading-secondary {
+  color: #fff;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.section-health p {
+  color: #fff;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.section-health ul {
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.1px;
+  margin-left: 1.6rem;
 }
