@@ -231,3 +231,41 @@ body {
   letter-spacing: 0.1px;
   margin-left: 1.6rem;
 }
+
+.customers {
+  padding: 9.6rem 15rem;
+}
+
+.comments {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.customer-img {
+  height: 6.2rem;
+  width: 6.2rem;
+  border-radius: 50%;
+  border: 3px solid #ffcf23;
+}
+
+.customer1,
+.customer2,
+.customer3 {
+  padding: 2.4rem 2.4rem;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.customer-comments {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.customer-name {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
