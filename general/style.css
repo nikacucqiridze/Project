@@ -93,7 +93,7 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 6.4rem;
   align-items: center;
-  align-content: center;
+  justify-content: center;
 }
 
 .hero-img {
@@ -153,9 +153,9 @@ body {
 
   background-color: #f3f3f3;
   padding: 6.4rem 15rem;
-  gap: 5rem;
-  justify-content: center;
+  gap: 3rem;
   align-items: center;
+  justify-content: center;
 }
 
 .discription-title {
@@ -182,17 +182,9 @@ body {
   justify-content: space-around;
 }
 
-.pb {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.4rem;
-  align-items: center;
-  justify-content: center;
-}
-
-.pb p {
+.delicious-p {
   font-size: 1.6rem;
-  grid-column: -3/-1;
+  margin-top: 2.4rem;
 }
 
 /* ////////////// */
@@ -220,7 +212,6 @@ body {
 
 .section-health p {
   color: #fff;
-  line-height: 2.4rem;
   font-size: 1.6rem;
   margin-bottom: 1.6rem;
 }
