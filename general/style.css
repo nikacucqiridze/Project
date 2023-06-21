@@ -160,22 +160,23 @@ body {
 }
 
 .discription-title {
-  font-size: 2.4rem;
-  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
 }
 
 .discription-text {
   font-size: 1.6rem;
-  line-height: 1.2;
+  line-height: 2.4rem;
+  letter-spacing: 0.1px;
 }
 
 .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 1.9rem;
+  width: 1.9rem;
   color: white;
   background-color: #ffcf23;
   border-radius: 50%;
-  margin-right: 1.8rem;
+  margin-right: 1.6rem;
 }
 
 .logo {
@@ -265,7 +266,7 @@ body {
 
 .do-it-now {
   /* background-image: url(/pictures/00.jpg); */
-  background: linear-gradient(rgba(255, 232, 25, 0.366), rgba(0, 0, 0, 0.832)),
+  background: linear-gradient(rgba(255, 232, 25, 0.366), rgba(0, 0, 0, 0.538)),
     url(/pictures/00.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -282,14 +283,17 @@ body {
 .do-it-now p {
   font-size: 2rem;
   font-weight: 600;
-  color: #fff;
+  color: #000;
 }
 
 .do-it-now h3 {
   font-size: 4rem;
   font-weight: 500;
-  margin-bottom: 3rem;
-  color: #fff;
+  margin-bottom: 2.4rem;
+  color: #000;
+  padding: 0 40rem 0 40rem;
+  text-align: center;
+  line-height: 4.8rem;
 }
 
 .btn-do-it-now {
@@ -307,7 +311,7 @@ body {
 
 .btn-do-it-now:hover,
 .btn-do-it-now:active {
-  background-color: rgba(255, 232, 25, 0.481);
+  background-color: #ffcf23;
   color: #fff;
 }
 
@@ -357,16 +361,52 @@ body {
 
 .p-join {
   font-size: 1.2rem;
-  color: #fff;
+  color: #ffffff65;
   letter-spacing: 0.2px;
+  line-height: 2rem;
 
   margin-top: 2rem;
 }
 
-.input input {
+.plane-icon {
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  cursor: pointer;
+}
+
+.plane-icon:hover,
+.plane-icon:active {
+  color: #ffcf23;
+}
+
+::placeholder {
+  color: #ffffff65;
+}
+
+input[type="text"] {
+  padding: 1.2rem 2.4rem;
+  color: #000;
+  border-radius: 15px;
+  background-color: #3b3b3b;
+  letter-spacing: 0.4px;
+  border: none;
+
+  cursor: pointer;
+}
+.icon-email {
+  position: relative;
+}
+/* 
+ .input input {
   padding: 1.2rem 2.4rem;
   color: #000;
   border-radius: 15px;
 
   letter-spacing: 0.4px;
-}
+
+  cursor: pointer;
+} */

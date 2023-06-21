@@ -39,7 +39,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12.9rem;
-    margin-top: -4rem;
+    margin-top: -7rem;
   }
 
   .customers {
@@ -56,4 +56,7 @@
     padding: 0 25rem;
     text-align: center;
   }
+}
+
+@media (max-with: 56.5em) {
 }
