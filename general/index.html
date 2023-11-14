@@ -12,28 +12,35 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="pictures/CB.jpg" />
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <script defer src="js/script.js"></script>
 
     <title>Double C&B</title>
   </head>
   <body>
     <header class="header">
-      <a class="title" href="#">Double C&B</a>
-
+      <div>
+        <a class="title" href="#">Double C&B</a>
+      </div>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="recipes">Recipes</a></li>
-          <li><a class="main-nav-link" href="Food">Food</a></li>
-          <li><a class="main-nav-link" href="About Us">About us</a></li>
-          <li><a class="main-nav-link" href="contant">Contact</a></li>
+          <li><a class="main-nav-link" href="#disc">Recipes</a></li>
+          <li><a class="main-nav-link" href="#disc">Food</a></li>
+          <li><a class="main-nav-link" href="#foot">About us</a></li>
+          <li><a class="main-nav-link" href="#foot">Contact</a></li>
           <li>
-            <a class="main-nav-link" href="how this work"
-              >How this diet works?</a
-            >
+            <a class="main-nav-link" href="#health">How this diet works?</a>
           </li>
+          <li><a class="main-nav-link nav-cta" href="#">Login</a></li>
         </ul>
       </nav>
-      <button class="btn">Login</button>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -41,25 +48,26 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              Double <span>Cheese</span> and Bacon
+              Double <spam>cheese</spam> and Bacon
             </h1>
             <p class="hero-discription">
               Find the best keto recipes with their nutritional values and more.
             </p>
 
             <button class="btn-recipes">Recipes</button>
+
             <p class="delicious-p">
-              400+ delicious and amazing recipes for ypur keto diet!
+              400+ delicious and amazing recipes for your keto diet!
             </p>
           </div>
 
           <div class="img-box">
-            <img class="hero-img" src="/pictures/main.jpg" alt="cheese shop" />
+            <img class="hero-img" src="pictures/main.jpg" alt="cheese shop" />
           </div>
         </div>
       </section>
 
-      <div class="discription">
+      <section class="discription" id="disc">
         <div class="nutritional-value">
           <h3 class="discription-title">
             <ion-icon class="icon" name="ellipse-outline"></ion-icon>Nutritional
@@ -96,12 +104,12 @@
             desserts available for you.
           </p>
         </div>
-      </div>
+      </section>
 
-      <section class="section-health">
+      <section class="section-health" id="health">
         <img
           class="img-health"
-          src="/pictures/total-shape-Ianw4RdVuoo-unsplash.jpg"
+          src="pictures/total-shape-Ianw4RdVuoo-unsplash.jpg"
           alt="mental health"
         />
         <div class="program">
@@ -126,13 +134,13 @@
         </div>
       </section>
 
-      <section class="customers">
+      <section class="customers" id="coms">
         <div class="comments">
           <div class="customer1">
             <p class="customer-name">Patty Sultan</p>
             <img
               class="customer-img"
-              src="/avatar/1.jpg"
+              src="avatar/1.jpg"
               alt="customer picture"
             />
 
@@ -147,7 +155,7 @@
             <p class="customer-name">Jess Fonseca</p>
             <img
               class="customer-img"
-              src="/avatar/2.jpg"
+              src="avatar/2.jpg"
               alt="customer picture"
             />
 
@@ -162,7 +170,7 @@
             <p class="customer-name">David cole</p>
             <img
               class="customer-img"
-              src="/avatar/3.jpg"
+              src="avatar/3.jpg"
               alt="customer picture"
             />
             <p class="customer-comments">
@@ -174,64 +182,60 @@
         </div>
       </section>
 
-      <section class="do-it-now">
+      <section class="do-it-now" id="do">
         <p>It's time to</p>
-
         <h3 class="do-h3">WORK ON YOURSELF AND BE YOUR BEST VERSION</h3>
         <button class="btn-do-it-now">I want to do it now!</button>
       </section>
     </main>
 
-    <footer>
-      <div class="main-footer">
-        <div class="footer">
-          <p class="footer-heading">First column</p>
-          <ul class="footer-nav">
-            <li><a class="footer-link" href="#">First page</a></li>
-            <li><a class="footer-link" href="#">Second Page</a></li>
-            <li><a class="footer-link" href="#">Third</a></li>
-            <li><a class="footer-link" href="#">Fouth</a></li>
-          </ul>
-        </div>
-
-        <div class="footer">
-          <p class="footer-heading">Second</p>
-          <ul class="footer-nav">
-            <li><a class="footer-link" href="#">First page</a></li>
-            <li><a class="footer-link" href="#">Second Page</a></li>
-            <li><a class="footer-link" href="#">Third</a></li>
-          </ul>
-        </div>
-
-        <div class="footer">
-          <p class="footer-heading">Third</p>
-          <ul class="footer-nav">
-            <li><a class="footer-link" href="#">First page</a></li>
-            <li><a class="footer-link" href="#">Second Page</a></li>
-            <li><a class="footer-link" href="#">Third</a></li>
-          </ul>
-        </div>
-
-        <form class="input" action="#">
-          <p class="footer-heading">Subscribe</p>
-          <div class="icon-email">
-            <input
-              id="enter-email"
-              type="text"
-              placeholder="Enter email"
-              required
-            />
-            <ion-icon class="plane-icon" name="paper-plane-outline"></ion-icon>
-          </div>
-
-          <p class="p-join">
-            Join our newsletter to stay up to date on features and releases
-          </p>
-        </form>
-        <div class="footer-title">
-          <h3>Double C&B</h3>
-        </div>
+    <footer class="div" id="foot">
+      <div class="footer">
+        <p class="footer-heading">First column</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">First page</a></li>
+          <li><a class="footer-link" href="#">Second Page</a></li>
+          <li><a class="footer-link" href="#">Third</a></li>
+          <li><a class="footer-link" href="#">Fouth</a></li>
+        </ul>
       </div>
+
+      <div class="footer">
+        <p class="footer-heading">Second</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">First page</a></li>
+          <li><a class="footer-link" href="#">Second Page</a></li>
+          <li><a class="footer-link" href="#">Third</a></li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <p class="footer-heading">Third</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">First page</a></li>
+          <li><a class="footer-link" href="#">Second Page</a></li>
+          <li><a class="footer-link" href="#">Third</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-title">
+        <h3>Double C&B</h3>
+      </div>
+      <form class="input" action="#">
+        <p class="footer-heading">Subscribe</p>
+        <div class="icon-email">
+          <input
+            id="enter-email"
+            type="text"
+            placeholder="Enter email"
+            required
+          />
+        </div>
+
+        <p class="p-join">
+          Join our newsletter to stay up to date on features and releases
+        </p>
+      </form>
     </footer>
   </body>
 </html>
